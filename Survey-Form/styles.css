@@ -1,0 +1,75 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  background: url(https://cdn.pixabay.com/photo/2015/01/31/05/05/background-618226_960_720.png);
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 20px;
+  background-size: cover;
+}
+.container{
+  /*background-color: brown;*/
+  max-width: 700px;
+  margin: auto;
+  padding: 15px;
+
+
+}
+.header{
+  text-align: center;
+  font-family: sans-serif;
+      line-height: 1rem;
+      color: black;
+}
+#description{
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+}
+#survey-form{
+  background-color: rgba(27,27,80,0.8);;
+  padding: 30px;
+  /*width: 10%;*/
+  font-weight: bold;
+  font-size: 18px;
+}
+.form-group{
+
+}
+label{
+  display: block;
+  margin: 0.5rem 0;
+}
+input,textarea,button,select{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: none;
+}
+.submit-button{
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+  height: 3em;
+  font-size: 1.1rem;
+  background-color: #4dab38;
+  border-color: white;
+  min-width: 300px;
+  color: white;
+}
+.form-control{
+
+}
+.inline, .input-checkbox{
+  width: unset;
+  margin: 0 0.5em 0 0;
+  /*vertical-align: middle;*/
+  margin-top: -10px;
+}
+p{
+  padding-top: 15px;
+}
+.input-textarea{
+  height: 100px;
+}
